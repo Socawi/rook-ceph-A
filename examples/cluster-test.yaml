@@ -15,7 +15,7 @@ metadata:
 spec:
   dataDirHostPath: /var/lib/rook
   cephVersion:
-    image: quay.io/ceph/ceph:v20
+    image: quay.io/ceph/ceph:v20.2.0
     allowUnsupported: true
   mon:
     count: 1
@@ -41,7 +41,7 @@ spec:
     #config:
     #  deviceClass: testclass
   monitoring:
-    enabled: false
+    enabled: true
   healthCheck:
     daemonHealth:
       mon:
@@ -68,5 +68,5 @@ metadata:
 spec:
   name: .mgr
   replicated:
-    size: 1
+    size: 2
     requireSafeReplicaSize: false
