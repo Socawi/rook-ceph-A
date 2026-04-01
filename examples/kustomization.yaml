@@ -7,3 +7,4 @@ resources:
   - operator.yaml
   - csi-operator.yaml
   - dashboard-external-https.yaml
+  - toolbox.yaml
