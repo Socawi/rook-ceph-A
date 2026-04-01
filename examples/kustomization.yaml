@@ -6,3 +6,4 @@ resources:
   - common.yaml
   - operator.yaml
   - csi-operator.yaml
+  - dashboard-external-https.yaml
