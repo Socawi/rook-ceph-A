@@ -30,6 +30,7 @@ spec:
         enabled: true
   dashboard:
     enabled: true
+    ssl: true
   crashCollector:
     disable: true
   storage:
